@@ -1,0 +1,22 @@
+{
+  "topic_name":"谣言话题1",
+  "time_series":[
+    {"date":"2026-02-01","count":80},
+    {"date":"2026-02-02","count":260},
+    {"date":"2026-02-03","count":520},
+    {"date":"2026-02-04","count":310},
+    {"date":"2026-02-05","count":140}
+  ],
+  "event_list":[
+    {"event_time":"2026-02-03","event_content":"官方平台发布辟谣通报","source":"辟谣平台+权威媒体+监管通报"}
+  ],
+  "sentiment":{"负面":520,"中性":340,"正面":120},
+  "word_list":["食品安全","谣言","检测","监管","辟谣","添加剂"],
+  "quality":{"before_dedup":1012,"after_dedup":846,"missing_rate":"0.08%"},
+  "time_distribution":[
+    {"hour": 8, "cnt": 22},
+    {"hour": 12, "cnt": 65},
+    {"hour": 18, "cnt": 48},
+    {"hour": 20, "cnt": 33}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "topic_name":"谣言话题2",
+  "time_series":[
+    {"date":"2026-02-01","count":60},
+    {"date":"2026-02-02","count":180},
+    {"date":"2026-02-03","count":430},
+    {"date":"2026-02-04","count":270},
+    {"date":"2026-02-05","count":90}
+  ],
+  "event_list":[
+    {"event_time":"2026-02-03","event_content":"官方平台发布辟谣通报","source":"辟谣平台+权威媒体+监管通报"}
+  ],
+  "sentiment":{"负面":410,"中性":290,"正面":95},
+  "word_list":["食品","防腐剂","网传","检测","辟谣","商家"],
+  "quality":{"before_dedup":980,"after_dedup":815,"missing_rate":"0.10%"},
+  "time_distribution":[
+    {"hour": 9, "cnt": 18},
+    {"hour": 13, "cnt": 52},
+    {"hour": 17, "cnt": 41},
+    {"hour": 21, "cnt": 26}
+  ]
+}
